@@ -1,0 +1,16 @@
+Jak dodawać pliki?
+
+Roibmy swoje lokalne repozytorium:
+git init
+
+git clone: https://github.com/letscodeczupakabra/czupakabra
+
+Robimy brancha na ktorym bedziemy pracować:
+git checkout -b nazwabrancha
+
+Dodajemy wszystkie pliki
+git add -a
+
+git commit -m "Nazwa comita"
+
+git push origin nazwabrancha
