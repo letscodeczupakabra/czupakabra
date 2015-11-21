@@ -1,0 +1,48 @@
+<html>
+<head>
+	<meta http-equiv="Content-Type" content="text/html;charset=utf-8" >
+	<title>Zarządzaj wydarzeniami</title>
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css" integrity="sha512-dTfge/zgoMYpP7QbHy4gWMEGsbsdZeCXz7irItjcC3sPUFtf0kuFbDz/ixG7ArTxmDjLXDmezHubeNikyKGVyQ==" crossorigin="anonymous">
+	<link rel="stylesheet" href="styles_new_event_list_details.css">
+</head>
+<body>
+<div class="col-lg-3"></div>
+<div class="col-lg-6">
+<h4>Dodaj nowe wydarzenie:</h4>
+
+		<form id="new_event" role="form" class="form-horizontal">
+  			<div class="form-group">
+    			<label label class="col-sm-2 control-label" for="login">Nazwa:</label>
+    			<input type="text" class="name control-form" id="name" required>
+ 			</div>
+  			<div class="form-group">
+    			<label label class="col-sm-2 control-label" for="date">Data:</label>
+    			<input type="date" class="date control-form" id="date" required>
+  			</div>
+  			<div class="form-group">
+    			<label label class="col-sm-2 control-label" for="photo">Zdjęcie:</label>
+    			<input type="file" id="photo" class="control-form">
+    			<p class="help-block">Maksymalny rozmiar pliku to 250 Mb.</p>
+  			</div>
+  			<div class="form-group">
+    			<label label class="col-sm-2 control-label" for="description">Opis:</label>
+    			<textarea form="description" class="description control-form" rows="3"></textarea>
+  			</div>
+  			<div class="form-group">
+    			<label label class="col-sm-2 control-label" for="pwd">Tagi:</label>
+    			<input type="tags" class="tags control-form" id="tags" required>
+				Proponowane:
+    			<li class="chip">#IT
+				<li class="chip">#koszykówka
+				<li class="chip">#koncert
+  			</div>
+
+  			<button type="submit" class="btn btn-success">Dodaj wydarzenie</button>
+
+		</form>
+
+
+</div>
+<div class="col-lg-3"></div>
+</body>
+</html>

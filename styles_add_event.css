@@ -1,0 +1,30 @@
+h4 {
+	text-align: center;
+}
+
+.adding-table {
+
+	border-collapse: separate;
+}
+
+table li {
+	list-style-type: none;
+}
+
+table tr {
+	font-size: 14px;
+}
+
+table tr.main {
+	font-size: 16px;
+}
+
+button.btn {
+	display: block;
+}
+
+button.add-btn {
+	margin-left: auto;
+	margin-right: auto;
+	position: block;
+}
